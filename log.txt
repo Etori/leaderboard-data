@@ -1,53 +1,346 @@
-[2021-03-19 17:00:37] (profile_api) HTTP error 404 for Smugpug-kelthuzad
-[2021-03-19 17:01:39] (profile_api) HTTP error 404 for Milkduzmegud-kelthuzad
-[2021-03-19 17:04:12] (profile_api) HTTP error 404 for Uigeadail-kiljaeden
-[2021-03-19 17:04:20] (profile_api) HTTP error 404 for Fartoxi-bleeding-hollow
-[2021-03-19 17:05:39] (profile_api) HTTP error 404 for Macrossfan-frostmourne
-[2021-03-19 17:07:58] (profile_api) HTTP error 404 for Milkdidmegud-kelthuzad
-[2021-03-19 17:08:19] (profile_api) HTTP error 404 for Norneth-barthilas
-[2021-03-19 17:08:33] (profile_api) HTTP error 404 for Slaneesh-ragnaros
-[2021-03-19 17:08:55] (profile_api) HTTP error 404 for Foi-stormreaver
-[2021-03-19 17:09:38] (character_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:09:39] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
-wrong return value, type mismatch
-`typeof(value)`: "NULL"
-`expected`:      "list"
-[2021-03-19 17:09:42] (character_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:09:42] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
-wrong return value, type mismatch
-`typeof(value)`: "NULL"
-`expected`:      "list"
-[2021-03-19 17:09:46] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:09:46] (write$talents ) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
-wrong return value, type mismatch
-`typeof(value)`: "NULL"
-`expected`:      "list"
-[2021-03-19 17:09:52] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:09:52] (write$talents) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
-wrong return value, type mismatch
-`typeof(value)`: "NULL"
-`expected`:      "list"
-[2021-03-19 17:09:56] (media_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:09:56] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
-wrong return value, type mismatch
-`typeof(value)`: "NULL"
-`expected`:      "list"
-[2021-03-19 17:10:01] (media_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:10:01] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
-wrong return value, type mismatch
-`typeof(value)`: "NULL"
-`expected`:      "list"
-[2021-03-19 17:10:05] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:10:05] (write$stat) declare_call[[3]]: subscript out of bounds
-[2021-03-19 17:10:07] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:10:07] (write$stat) declare_call[[3]]: subscript out of bounds
-[2021-03-19 17:10:12] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:10:12] (write$equip) declare_call[[3]]: subscript out of bounds
-[2021-03-19 17:10:15] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:10:15] (write$equip) declare_call[[3]]: subscript out of bounds
-[2021-03-19 17:10:20] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:10:20] (write$soulbind) declare_call[[3]]: subscript out of bounds
-[2021-03-19 17:10:26] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-03-19 17:10:26] (write$soulbind) declare_call[[3]]: subscript out of bounds
-[2021-03-19 17:10:26] (write$covenant) infer_implicit_assignment_call(value): attempt to apply non-function
-[2021-03-19 17:10:31] (write$conduit) conduit_list$conduits: $ operator is invalid for atomic vectors
+[2021-03-20 05:00:26] (profile_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 05:00:50] (profile_api) HTTP error 404 for Milkduzmegud-kelthuzad
+[2021-03-20 05:01:42] (profile_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 05:01:46] (profile_api) HTTP error 404 for Fartoxi-bleeding-hollow
+[2021-03-20 05:02:10] (profile_api) HTTP error 404 for Macrossfan-frostmourne
+[2021-03-20 05:02:55] (profile_api) HTTP error 404 for Gojøsataru-malganis
+[2021-03-20 05:03:05] (profile_api) HTTP error 404 for Milkdidmegud-kelthuzad
+[2021-03-20 05:03:16] (profile_api) HTTP error 404 for Norneth-barthilas
+[2021-03-20 05:03:20] (profile_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 05:03:30] (profile_api) HTTP error 404 for Foi-stormreaver
+[2021-03-20 05:03:36] (profile_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 05:03:53] (profile_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 05:03:56] (profile_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 05:04:16] (profile_api) HTTP error 404 for Shouzhang-illidan
+[2021-03-20 05:04:24] (profile_api) HTTP error 404 for Fränkÿ-tichondrius
+[2021-03-20 05:04:45] (profile_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 05:05:04] (profile_api) HTTP error 404 for More-stormreaver
+[2021-03-20 05:05:11] (profile_api) HTTP error 404 for Phurbosjr-sargeras
+[2021-03-20 05:05:40] (profile_api) HTTP error 404 for Subarmoo-barthilas
+[2021-03-20 05:05:49] (profile_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 05:05:54] (profile_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 05:06:28] (profile_api) HTTP error 404 for Scripte-illidan
+[2021-03-20 05:06:41] (profile_api) HTTP error 404 for Symrol-sargeras
+[2021-03-20 05:06:54] (profile_api) HTTP error 404 for Kebabcake-sargeras
+[2021-03-20 05:07:22] (profile_api) HTTP error 404 for Soda-arthas
+[2021-03-20 05:08:12] (profile_api) HTTP error 404 for Kokial-tichondrius
+[2021-03-20 05:08:33] (profile_api) HTTP error 404 for Goku-arthas
+[2021-03-20 05:09:21] (profile_api) HTTP error 404 for Birdlawyer-hyjal
+[2021-03-20 05:09:42] (profile_api) HTTP error 404 for Keqingz-dalaran
+[2021-03-20 05:09:50] (profile_api) HTTP error 404 for Caonima-zuljin
+[2021-03-20 05:09:54] (profile_api) HTTP error 404 for Blindwraith-stormrage
+[2021-03-20 05:10:20] (profile_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 05:10:29] (profile_api) HTTP error 404 for Amozlr-illidan
+[2021-03-20 05:10:32] (profile_api) HTTP error 404 for Dopeykingdom-illidan
+[2021-03-20 05:11:23] (profile_api) HTTP error 404 for Nocaponastac-tichondrius
+[2021-03-20 05:11:47] (profile_api) HTTP error 404 for Ptenakin-garrosh
+[2021-03-20 05:12:09] (profile_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 05:12:14] (profile_api) HTTP error 404 for Zongsiling-illidan
+[2021-03-20 05:12:34] (profile_api) HTTP error 404 for Laoda-illidan
+[2021-03-20 05:12:56] (profile_api) HTTP error 404 for Shinong-area-52
+[2021-03-20 05:13:05] (profile_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 05:13:27] (profile_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 05:13:30] (profile_api) HTTP error 404 for Sesameseedxd-ghostlands
+[2021-03-20 05:14:00] (profile_api) HTTP error 404 for Wulinmengzhu-illidan
+[2021-03-20 05:14:20] (profile_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 05:14:33] (profile_api) HTTP error 404 for Zedok-tichondrius
+[2021-03-20 05:14:39] (profile_api) HTTP error 404 for Hastalafista-barthilas
+[2021-03-20 05:14:49] (profile_api) HTTP error 404 for Cløri-tichondrius
+[2021-03-20 05:14:54] (profile_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 05:15:24] (profile_api) HTTP error 404 for Bigßob-azgalor
+[2021-03-20 05:15:38] (profile_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 05:15:41] (profile_api) HTTP error 404 for Lunácy-malganis
+[2021-03-20 05:15:46] (profile_api) HTTP error 404 for Yitongsanjie-illidan
+[2021-03-20 05:16:41] (profile_api) HTTP error 404 for Smokeagex-barthilas
+[2021-03-20 05:16:57] (profile_api) HTTP error 404 for Tacomadness-bleeding-hollow
+[2021-03-20 05:17:01] (profile_api) HTTP error 404 for Chinos-barthilas
+[2021-03-20 05:17:12] (profile_api) HTTP error 404 for Doobyx-malganis
+[2021-03-20 05:17:18] (profile_api) HTTP error 404 for Carkusw-skywall
+[2021-03-20 05:17:23] (profile_api) HTTP error 404 for Braves-frostmane
+[2021-03-20 05:17:30] (profile_api) HTTP error 404 for Yellowboba-proudmoore
+[2021-03-20 05:17:34] (profile_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 05:17:58] (profile_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 05:18:41] (profile_api) HTTP error 404 for Ýàûxø-tichondrius
+[2021-03-20 05:18:54] (profile_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 05:19:04] (profile_api) HTTP error 404 for Bun-illidan
+[2021-03-20 05:19:13] (profile_api) HTTP error 404 for Zileyn-malganis
+[2021-03-20 05:19:26] (profile_api) HTTP error 404 for Nigelantrous-moon-guard
+[2021-03-20 05:19:41] (profile_api) HTTP error 404 for Munkeez-tichondrius
+[2021-03-20 05:19:49] (profile_api) HTTP error 404 for Pastynailx-exodar
+[2021-03-20 05:19:54] (profile_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 05:20:02] (profile_api) HTTP error 404 for Aultyp-bloodhoof
+[2021-03-20 05:20:14] (profile_api) HTTP error 404 for Nutgobbeler-stormrage
+[2021-03-20 05:20:20] (profile_api) HTTP error 404 for Phurbosjr-sargeras
+[2021-03-20 05:20:43] (profile_api) HTTP error 404 for Feelst0E2F38-nemesis
+[2021-03-20 05:21:09] (profile_api) HTTP error 404 for Lastdancè-barthilas
+[2021-03-20 05:21:25] (profile_api) HTTP error 404 for Holybloodx-zuljin
+[2021-03-20 05:21:55] (profile_api) HTTP error 404 for Upons-crushridge
+[2021-03-20 05:22:04] (profile_api) HTTP error 404 for Laddingtonx-shuhalo
+[2021-03-20 05:22:06] (profile_api) HTTP error 404 for Alfrédi-area-52
+[2021-03-20 05:22:20] (profile_api) HTTP error 404 for Swiftÿ-area-52
+[2021-03-20 05:22:27] (profile_api) HTTP error 404 for Mâsina-frostmourne
+[2021-03-20 05:22:55] (profile_api) HTTP error 404 for Mcrxx-tichondrius
+[2021-03-20 05:23:04] (profile_api) HTTP error 404 for Losmydots-malganis
+[2021-03-20 05:23:26] (profile_api) HTTP error 404 for Fartoxi-bleeding-hollow
+[2021-03-20 05:23:29] (profile_api) HTTP error 404 for Pokapoka-the-venture-co
+[2021-03-20 05:23:49] (profile_api) HTTP error 404 for Shox-shuhalo
+[2021-03-20 05:23:55] (profile_api) HTTP error 404 for Eholde-illidan
+[2021-03-20 05:24:32] (talent_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 05:25:15] (talent_api) HTTP error 404 for Milkduzmegud-kelthuzad
+[2021-03-20 05:26:57] (talent_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 05:27:02] (talent_api) HTTP error 404 for Fartoxi-bleeding-hollow
+[2021-03-20 05:27:47] (talent_api) HTTP error 404 for Macrossfan-frostmourne
+[2021-03-20 05:29:13] (talent_api) HTTP error 404 for Gojøsataru-malganis
+[2021-03-20 05:29:26] (talent_api) HTTP error 404 for Milkdidmegud-kelthuzad
+[2021-03-20 05:29:45] (talent_api) HTTP error 404 for Norneth-barthilas
+[2021-03-20 05:29:55] (talent_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 05:30:11] (talent_api) HTTP error 404 for Foi-stormreaver
+[2021-03-20 05:30:20] (talent_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 05:30:54] (talent_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 05:30:59] (talent_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 05:31:39] (talent_api) HTTP error 404 for Shouzhang-illidan
+[2021-03-20 05:31:51] (talent_api) HTTP error 404 for Fränkÿ-tichondrius
+[2021-03-20 05:32:28] (talent_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 05:33:06] (talent_api) HTTP error 404 for More-stormreaver
+[2021-03-20 05:33:18] (talent_api) HTTP error 404 for Phurbosjr-sargeras
+[2021-03-20 05:34:16] (talent_api) HTTP error 404 for Subarmoo-barthilas
+[2021-03-20 05:34:34] (talent_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 05:34:38] (talent_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 05:35:44] (talent_api) HTTP error 404 for Scripte-illidan
+[2021-03-20 05:36:08] (talent_api) HTTP error 404 for Symrol-sargeras
+[2021-03-20 05:36:28] (talent_api) HTTP error 404 for Kebabcake-sargeras
+[2021-03-20 05:37:21] (talent_api) HTTP error 404 for Soda-arthas
+[2021-03-20 05:39:01] (talent_api) HTTP error 404 for Kokial-tichondrius
+[2021-03-20 05:39:37] (talent_api) HTTP error 404 for Goku-arthas
+[2021-03-20 05:41:17] (talent_api) HTTP error 404 for Birdlawyer-hyjal
+[2021-03-20 05:41:57] (talent_api) HTTP error 404 for Keqingz-dalaran
+[2021-03-20 05:42:06] (talent_api) HTTP error 404 for Caonima-zuljin
+[2021-03-20 05:42:12] (talent_api) HTTP error 404 for Blindwraith-stormrage
+[2021-03-20 05:43:02] (talent_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 05:43:16] (talent_api) HTTP error 404 for Amozlr-illidan
+[2021-03-20 05:43:22] (talent_api) HTTP error 404 for Dopeykingdom-illidan
+[2021-03-20 05:45:06] (talent_api) HTTP error 404 for Nocaponastac-tichondrius
+[2021-03-20 05:45:16] (talent_api) HTTP error 404 for Mar-bleeding-hollow
+[2021-03-20 05:45:54] (talent_api) HTTP error 404 for Ptenakin-garrosh
+[2021-03-20 05:47:10] (talent_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 05:47:18] (talent_api) HTTP error 404 for Zongsiling-illidan
+[2021-03-20 05:47:49] (talent_api) HTTP error 404 for Laoda-illidan
+[2021-03-20 05:48:31] (talent_api) HTTP error 404 for Shinong-area-52
+[2021-03-20 05:48:46] (talent_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 05:49:28] (talent_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 05:49:31] (talent_api) HTTP error 404 for Sesameseedxd-ghostlands
+[2021-03-20 05:50:30] (talent_api) HTTP error 404 for Wulinmengzhu-illidan
+[2021-03-20 05:51:05] (talent_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 05:51:29] (talent_api) HTTP error 404 for Zedok-tichondrius
+[2021-03-20 05:51:40] (talent_api) HTTP error 404 for Hastalafista-barthilas
+[2021-03-20 05:51:50] (talent_api) HTTP error 404 for Cløri-tichondrius
+[2021-03-20 05:51:57] (talent_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 05:52:58] (talent_api) HTTP error 404 for Bigßob-azgalor
+[2021-03-20 05:53:22] (talent_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 05:53:28] (talent_api) HTTP error 404 for Lunácy-malganis
+[2021-03-20 05:53:35] (talent_api) HTTP error 404 for Yitongsanjie-illidan
+[2021-03-20 05:55:24] (talent_api) HTTP error 404 for Smokeagex-barthilas
+[2021-03-20 05:55:54] (talent_api) HTTP error 404 for Tacomadness-bleeding-hollow
+[2021-03-20 05:55:57] (talent_api) HTTP error 404 for Chinos-barthilas
+[2021-03-20 05:56:12] (talent_api) HTTP error 404 for Doobyx-malganis
+[2021-03-20 05:56:21] (talent_api) HTTP error 404 for Carkusw-skywall
+[2021-03-20 05:56:26] (talent_api) HTTP error 404 for Braves-frostmane
+[2021-03-20 05:56:39] (talent_api) HTTP error 404 for Yellowboba-proudmoore
+[2021-03-20 05:56:45] (talent_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 05:57:31] (talent_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 05:58:56] (talent_api) HTTP error 404 for Ýàûxø-tichondrius
+[2021-03-20 05:59:16] (talent_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 05:59:35] (talent_api) HTTP error 404 for Bun-illidan
+[2021-03-20 05:59:47] (talent_api) HTTP error 404 for Zileyn-malganis
+[2021-03-20 06:00:10] (talent_api) HTTP error 404 for Nigelantrous-moon-guard
+[2021-03-20 06:00:36] (talent_api) HTTP error 404 for Munkeez-tichondrius
+[2021-03-20 06:00:45] (talent_api) HTTP error 404 for Pastynailx-exodar
+[2021-03-20 06:00:49] (talent_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 06:01:00] (talent_api) HTTP error 404 for Aultyp-bloodhoof
+[2021-03-20 06:01:23] (talent_api) HTTP error 404 for Nutgobbeler-stormrage
+[2021-03-20 06:01:35] (talent_api) HTTP error 404 for Phurbosjr-sargeras
+[2021-03-20 06:02:16] (talent_api) HTTP error 404 for Feelst0E2F38-nemesis
+[2021-03-20 06:03:02] (talent_api) HTTP error 404 for Lastdancè-barthilas
+[2021-03-20 06:03:34] (talent_api) HTTP error 404 for Holybloodx-zuljin
+[2021-03-20 06:04:36] (talent_api) HTTP error 404 for Upons-crushridge
+[2021-03-20 06:04:49] (talent_api) HTTP error 404 for Alfrédi-area-52
+[2021-03-20 06:05:17] (talent_api) HTTP error 404 for Swiftÿ-area-52
+[2021-03-20 06:05:26] (talent_api) HTTP error 404 for Mâsina-frostmourne
+[2021-03-20 06:06:19] (talent_api) HTTP error 404 for Mcrxx-tichondrius
+[2021-03-20 06:06:36] (talent_api) HTTP error 404 for Losmydots-malganis
+[2021-03-20 06:07:21] (talent_api) HTTP error 404 for Fartoxi-bleeding-hollow
+[2021-03-20 06:07:26] (talent_api) HTTP error 404 for Pokapoka-the-venture-co
+[2021-03-20 06:08:06] (talent_api) HTTP error 404 for Shox-shuhalo
+[2021-03-20 06:08:15] (talent_api) HTTP error 404 for Eholde-illidan
+[2021-03-20 06:09:49] (media_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 06:10:11] (media_api) HTTP error 404 for Milkduzmegud-kelthuzad
+[2021-03-20 06:10:33] (media_api) HTTP error 404 for Suðdeñmoves-area-52
+[2021-03-20 06:11:02] (media_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 06:11:05] (media_api) HTTP error 404 for Fartoxi-bleeding-hollow
+[2021-03-20 06:11:28] (media_api) HTTP error 404 for Macrossfan-frostmourne
+[2021-03-20 06:12:08] (media_api) HTTP error 404 for Gojøsataru-malganis
+[2021-03-20 06:12:16] (media_api) HTTP error 404 for Milkdidmegud-kelthuzad
+[2021-03-20 06:12:28] (media_api) HTTP error 404 for Norneth-barthilas
+[2021-03-20 06:12:34] (media_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 06:12:44] (media_api) HTTP error 404 for Foi-stormreaver
+[2021-03-20 06:12:52] (media_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 06:13:10] (media_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 06:13:13] (media_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 06:13:34] (media_api) HTTP error 404 for Shouzhang-illidan
+[2021-03-20 06:13:39] (media_api) HTTP error 404 for Fränkÿ-tichondrius
+[2021-03-20 06:13:59] (media_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 06:14:19] (media_api) HTTP error 404 for More-stormreaver
+[2021-03-20 06:14:28] (media_api) HTTP error 404 for Phurbosjr-sargeras
+[2021-03-20 06:14:57] (media_api) HTTP error 404 for Subarmoo-barthilas
+[2021-03-20 06:15:06] (media_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 06:15:10] (media_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 06:15:41] (media_api) HTTP error 404 for Scripte-illidan
+[2021-03-20 06:15:53] (media_api) HTTP error 404 for Symrol-sargeras
+[2021-03-20 06:16:05] (media_api) HTTP error 404 for Kebabcake-sargeras
+[2021-03-20 06:16:29] (media_api) HTTP error 404 for Soda-arthas
+[2021-03-20 06:17:16] (media_api) HTTP error 404 for Kokial-tichondrius
+[2021-03-20 06:17:31] (media_api) HTTP error 404 for Habhab-thrall
+[2021-03-20 06:17:39] (media_api) HTTP error 404 for Goku-arthas
+[2021-03-20 06:18:26] (media_api) HTTP error 404 for Birdlawyer-hyjal
+[2021-03-20 06:18:47] (media_api) HTTP error 404 for Keqingz-dalaran
+[2021-03-20 06:18:55] (media_api) HTTP error 404 for Caonima-zuljin
+[2021-03-20 06:18:59] (media_api) HTTP error 404 for Blindwraith-stormrage
+[2021-03-20 06:19:24] (media_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 06:19:32] (media_api) HTTP error 404 for Amozlr-illidan
+[2021-03-20 06:19:36] (media_api) HTTP error 404 for Dopeykingdom-illidan
+[2021-03-20 06:20:25] (media_api) HTTP error 404 for Nocaponastac-tichondrius
+[2021-03-20 06:20:49] (media_api) HTTP error 404 for Ptenakin-garrosh
+[2021-03-20 06:21:13] (media_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 06:21:18] (media_api) HTTP error 404 for Zongsiling-illidan
+[2021-03-20 06:21:36] (media_api) HTTP error 404 for Laoda-illidan
+[2021-03-20 06:21:58] (media_api) HTTP error 404 for Shinong-area-52
+[2021-03-20 06:22:06] (media_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 06:22:27] (media_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 06:22:30] (media_api) HTTP error 404 for Sesameseedxd-ghostlands
+[2021-03-20 06:22:57] (media_api) HTTP error 404 for Wulinmengzhu-illidan
+[2021-03-20 06:23:17] (media_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 06:23:28] (media_api) HTTP error 404 for Zedok-tichondrius
+[2021-03-20 06:23:34] (media_api) HTTP error 404 for Hastalafista-barthilas
+[2021-03-20 06:23:42] (media_api) HTTP error 404 for Cløri-tichondrius
+[2021-03-20 06:23:48] (media_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 06:24:18] (media_api) HTTP error 404 for Bigßob-azgalor
+[2021-03-20 06:24:32] (media_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 06:24:37] (media_api) HTTP error 404 for Lunácy-malganis
+[2021-03-20 06:24:42] (media_api) HTTP error 404 for Yitongsanjie-illidan
+[2021-03-20 06:25:32] (media_api) HTTP error 404 for Alundraa-tichondrius
+[2021-03-20 06:25:39] (media_api) HTTP error 404 for Smokeagex-barthilas
+[2021-03-20 06:25:54] (media_api) HTTP error 404 for Tacomadness-bleeding-hollow
+[2021-03-20 06:25:59] (media_api) HTTP error 404 for Chinos-barthilas
+[2021-03-20 06:26:08] (media_api) HTTP error 404 for Doobyx-malganis
+[2021-03-20 06:26:14] (media_api) HTTP error 404 for Braves-frostmane
+[2021-03-20 06:26:22] (media_api) HTTP error 404 for Yellowboba-proudmoore
+[2021-03-20 06:26:30] (media_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 06:26:52] (media_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 06:27:34] (media_api) HTTP error 404 for Ýàûxø-tichondrius
+[2021-03-20 06:27:45] (media_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 06:27:57] (media_api) HTTP error 404 for Bun-illidan
+[2021-03-20 06:28:06] (media_api) HTTP error 404 for Zileyn-malganis
+[2021-03-20 06:28:18] (media_api) HTTP error 404 for Nigelantrous-moon-guard
+[2021-03-20 06:28:34] (media_api) HTTP error 404 for Pastynailx-exodar
+[2021-03-20 06:28:39] (media_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 06:28:44] (media_api) HTTP error 404 for Aultyp-bloodhoof
+[2021-03-20 06:28:55] (media_api) HTTP error 404 for Nutgobbeler-stormrage
+[2021-03-20 06:29:03] (media_api) HTTP error 404 for Phurbosjr-sargeras
+[2021-03-20 06:29:23] (media_api) HTTP error 404 for Feelst0E2F38-nemesis
+[2021-03-20 06:29:46] (media_api) HTTP error 404 for Lastdancè-barthilas
+[2021-03-20 06:29:56] (media_api) HTTP error 404 for Suðdeñmoves-area-52
+[2021-03-20 06:30:03] (media_api) HTTP error 404 for Holybloodx-zuljin
+[2021-03-20 06:30:32] (media_api) HTTP error 404 for Upons-crushridge
+[2021-03-20 06:30:38] (media_api) HTTP error 404 for Laddingtonx-shuhalo
+[2021-03-20 06:30:41] (media_api) HTTP error 404 for Alfrédi-area-52
+[2021-03-20 06:30:57] (media_api) HTTP error 404 for Swiftÿ-area-52
+[2021-03-20 06:31:04] (media_api) HTTP error 404 for Mâsina-frostmourne
+[2021-03-20 06:31:30] (media_api) HTTP error 404 for Mcrxx-tichondrius
+[2021-03-20 06:31:40] (media_api) HTTP error 404 for Losmydots-malganis
+[2021-03-20 06:32:01] (media_api) HTTP error 404 for Fartoxi-bleeding-hollow
+[2021-03-20 06:32:06] (media_api) HTTP error 404 for Pokapoka-the-venture-co
+[2021-03-20 06:32:29] (media_api) HTTP error 404 for Eholde-illidan
+[2021-03-20 06:33:00] (stat_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 06:33:23] (stat_api) HTTP error 404 for Milkduzmegud-kelthuzad
+[2021-03-20 06:34:15] (stat_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 06:34:19] (stat_api) HTTP error 404 for Fartoxi-bleeding-hollow
+[2021-03-20 06:34:42] (stat_api) HTTP error 404 for Macrossfan-frostmourne
+[2021-03-20 06:35:24] (stat_api) HTTP error 404 for Gojøsataru-malganis
+[2021-03-20 06:35:32] (stat_api) HTTP error 404 for Milkdidmegud-kelthuzad
+[2021-03-20 06:35:43] (stat_api) HTTP error 404 for Norneth-barthilas
+[2021-03-20 06:35:51] (stat_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 06:36:01] (stat_api) HTTP error 404 for Foi-stormreaver
+[2021-03-20 06:36:06] (stat_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 06:36:25] (stat_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 06:36:30] (stat_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 06:36:51] (stat_api) HTTP error 404 for Shouzhang-illidan
+[2021-03-20 06:36:58] (stat_api) HTTP error 404 for Fränkÿ-tichondrius
+[2021-03-20 06:37:16] (stat_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 06:37:34] (stat_api) HTTP error 404 for More-stormreaver
+[2021-03-20 06:37:42] (stat_api) HTTP error 404 for Phurbosjr-sargeras
+[2021-03-20 06:38:11] (stat_api) HTTP error 404 for Subarmoo-barthilas
+[2021-03-20 06:38:20] (stat_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 06:38:26] (stat_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 06:38:57] (stat_api) HTTP error 404 for Scripte-illidan
+[2021-03-20 06:39:11] (stat_api) HTTP error 404 for Symrol-sargeras
+[2021-03-20 06:39:22] (stat_api) HTTP error 404 for Kebabcake-sargeras
+[2021-03-20 06:39:50] (stat_api) HTTP error 404 for Soda-arthas
+[2021-03-20 06:40:37] (stat_api) HTTP error 404 for Kokial-tichondrius
+[2021-03-20 06:40:56] (stat_api) HTTP error 404 for Goku-arthas
+[2021-03-20 06:41:43] (stat_api) HTTP error 404 for Birdlawyer-hyjal
+[2021-03-20 06:42:05] (stat_api) HTTP error 404 for Keqingz-dalaran
+[2021-03-20 06:42:13] (stat_api) HTTP error 404 for Caonima-zuljin
+[2021-03-20 06:42:18] (stat_api) HTTP error 404 for Blindwraith-stormrage
+[2021-03-20 06:42:42] (stat_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 06:42:50] (stat_api) HTTP error 404 for Amozlr-illidan
+[2021-03-20 06:42:55] (stat_api) HTTP error 404 for Dopeykingdom-illidan
+[2021-03-20 06:43:44] (stat_api) HTTP error 404 for Nocaponastac-tichondrius
+[2021-03-20 06:44:07] (stat_api) HTTP error 404 for Ptenakin-garrosh
+[2021-03-20 06:44:27] (stat_api) HTTP error 404 for Kishò-illidan
+[2021-03-20 06:44:34] (stat_api) HTTP error 404 for Zongsiling-illidan
+[2021-03-20 06:44:52] (stat_api) HTTP error 404 for Laoda-illidan
+[2021-03-20 06:45:12] (stat_api) HTTP error 404 for Shinong-area-52
+[2021-03-20 06:45:21] (stat_api) HTTP error 404 for Àáâãäåæç-illidan
+[2021-03-20 06:45:41] (stat_api) HTTP error 404 for Drventure-crushridge
+[2021-03-20 06:45:47] (stat_api) HTTP error 404 for Sesameseedxd-ghostlands
+[2021-03-20 06:46:16] (stat_api) HTTP error 404 for Wulinmengzhu-illidan
+[2021-03-20 06:46:34] (stat_api) HTTP error 404 for Smugpug-kelthuzad
+[2021-03-20 06:46:46] (stat_api) HTTP error 404 for Zedok-tichondrius
+[2021-03-20 06:46:54] (stat_api) HTTP error 404 for Hastalafista-barthilas
+[2021-03-20 06:47:02] (stat_api) HTTP error 404 for Cløri-tichondrius
+[2021-03-20 06:47:09] (stat_api) HTTP error 404 for Synz-barthilas
+[2021-03-20 06:47:39] (stat_api) HTTP error 404 for Bigßob-azgalor
+[2021-03-20 06:47:52] (stat_api) HTTP error 404 for Dramæ-sargeras
+[2021-03-20 06:47:58] (stat_api) HTTP error 404 for Lunácy-malganis
+[2021-03-20 06:48:02] (stat_api) HTTP error 404 for Yitongsanjie-illidan
+[2021-03-20 06:48:56] (stat_api) HTTP error 404 for Smokeagex-barthilas
+[2021-03-20 06:49:10] (stat_api) HTTP error 404 for Tacomadness-bleeding-hollow
+[2021-03-20 06:49:16] (stat_api) HTTP error 404 for Chinos-barthilas
+[2021-03-20 06:49:26] (stat_api) HTTP error 404 for Doobyx-malganis
+[2021-03-20 06:49:31] (stat_api) HTTP error 404 for Carkusw-skywall
+[2021-03-20 06:49:38] (stat_api) HTTP error 404 for Braves-frostmane
+[2021-03-20 06:49:45] (stat_api) HTTP error 404 for Yellowboba-proudmoore
+[2021-03-20 06:49:51] (stat_api) HTTP error 404 for Katyushá-illidan
+[2021-03-20 06:50:13] (stat_api) HTTP error 404 for Slaneesh-ragnaros
+[2021-03-20 06:50:56] (stat_api) HTTP error 404 for Ýàûxø-tichondrius
+[2021-03-20 06:51:09] (stat_api) HTTP error 404 for Uigeadail-kiljaeden
+[2021-03-20 06:51:20] (stat_api) HTTP error 404 for Bun-illidan
+[2021-03-20 06:51:30] (stat_api) HTTP error 404 for Zileyn-malganis
+[2021-03-20 06:51:41] (stat_api) HTTP error 404 for Nigelantrous-moon-guard
+[2021-03-20 06:51:53] (stat_api) HTTP error 404 for Munkeez-tichondrius
+[2021-03-20 06:51:59] (stat_api) HTTP error 404 for Pastynailx-exodar
+[2021-03-20 06:52:05] (stat_api) HTTP error 404 for Notdave-stormrage
+[2021-03-20 06:52:12] (stat_api) HTTP error 404 for Aultyp-bloodhoof
+[2021-03-20 06:52:24] (stat_api) HTTP error 404 for Nutgobbeler-stormrage
+[2021-03-20 06:52:30] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-03-20 06:52:30] (write$stat) declare_call[[3]]: subscript out of bounds
+[2021-03-20 06:52:33] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-03-20 06:52:33] (write$equip) declare_call[[3]]: subscript out of bounds
+[2021-03-20 06:52:36] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-03-20 06:52:36] (write$equip) declare_call[[3]]: subscript out of bounds
+[2021-03-20 06:52:39] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-03-20 06:52:39] (write$soulbind) declare_call[[3]]: subscript out of bounds
+[2021-03-20 06:52:46] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-03-20 06:52:46] (write$soulbind) declare_call[[3]]: subscript out of bounds
+[2021-03-20 06:52:46] (write$covenant) infer_implicit_assignment_call(value): attempt to apply non-function
+[2021-03-20 06:52:51] (write$conduit) conduit_list$conduits: $ operator is invalid for atomic vectors
