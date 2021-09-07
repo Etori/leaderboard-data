@@ -1,69 +1,70 @@
-[2021-09-07 04:00:45] (profile_api) HTTP error 404 for Frankiexo-illidan
-[2021-09-07 04:01:00] (profile_api) HTTP error 404 for Pokemonsp-tichondrius
-[2021-09-07 04:01:12] (profile_api) HTTP error 404 for Condemnlol-sargeras
-[2021-09-07 04:01:29] (profile_api) HTTP error 404 for Yangdingtian-illidan
-[2021-09-07 04:01:49] (profile_api) HTTP error 404 for Bookbookbook-illidan
-[2021-09-07 04:02:15] (profile_api) HTTP error 404 for Nèarl-illidan
-[2021-09-07 04:02:35] (profile_api) HTTP error 404 for Zhangbeihai-illidan
-[2021-09-07 04:02:44] (profile_api) HTTP error 404 for Leonaheídern-tichondrius
-[2021-09-07 04:02:51] (profile_api) HTTP error 404 for Arumoh-proudmoore
-[2021-09-07 04:02:59] (profile_api) HTTP error 404 for Jösef-tichondrius
-[2021-09-07 04:03:11] (profile_api) HTTP error 404 for Daxiabiedawo-illidan
-[2021-09-07 04:03:23] (profile_api) HTTP error 404 for Exmavis-arthas
-[2021-09-07 04:04:36] (profile_api) HTTP error 404 for Djßajlepka-area-52
-[2021-09-07 04:04:40] (profile_api) HTTP error 404 for Ñoñgmîñbòbò-illidan
-[2021-09-07 04:04:56] (profile_api) HTTP error 404 for Milkduzmegud-kelthuzad
-[2021-09-07 04:05:14] (profile_api) HTTP error 404 for Syerzie-dalaran
-[2021-09-07 04:05:49] (profile_api) HTTP error 404 for Thingx-barthilas
-[2021-09-07 04:05:53] (profile_api) HTTP error 404 for Milkdidmegud-kelthuzad
-[2021-09-07 04:06:13] (profile_api) HTTP error 404 for Dfd-bleeding-hollow
-[2021-09-07 04:06:35] (profile_api) HTTP error 404 for Hastyhamster-sargeras
-[2021-09-07 04:07:05] (profile_api) HTTP error 404 for Lilsac-caelestrasz
-[2021-09-07 04:07:45] (profile_api) HTTP error 404 for Creamsalad-azgalor
-[2021-09-07 04:08:24] (profile_api) HTTP error 404 for Karankaranka-illidan
-[2021-09-07 04:08:40] (profile_api) HTTP error 404 for Bothi-zuljin
-[2021-09-07 04:08:51] (profile_api) HTTP error 404 for Nigos-illidan
-[2021-09-07 04:09:23] (character_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:09:23] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
+[2021-09-07 16:00:42] (profile_api) HTTP error 404 for Frankiexo-illidan
+[2021-09-07 16:01:00] (profile_api) HTTP error 404 for Pokemonsp-tichondrius
+[2021-09-07 16:01:10] (profile_api) HTTP error 404 for Condemnlol-sargeras
+[2021-09-07 16:01:25] (profile_api) HTTP error 404 for Yangdingtian-illidan
+[2021-09-07 16:01:49] (profile_api) HTTP error 404 for Bookbookbook-illidan
+[2021-09-07 16:02:16] (profile_api) HTTP error 404 for Nèarl-illidan
+[2021-09-07 16:02:35] (profile_api) HTTP error 404 for Zhangbeihai-illidan
+[2021-09-07 16:02:45] (profile_api) HTTP error 404 for Leonaheídern-tichondrius
+[2021-09-07 16:02:51] (profile_api) HTTP error 404 for Daxiabiedawo-illidan
+[2021-09-07 16:02:55] (profile_api) HTTP error 404 for Arumoh-proudmoore
+[2021-09-07 16:03:01] (profile_api) HTTP error 404 for Jösef-tichondrius
+[2021-09-07 16:03:20] (profile_api) HTTP error 404 for Exmavis-arthas
+[2021-09-07 16:04:04] (profile_api) HTTP error 404 for Cavityx-arthas
+[2021-09-07 16:04:33] (profile_api) HTTP error 404 for Djßajlepka-area-52
+[2021-09-07 16:04:39] (profile_api) HTTP error 404 for Ñoñgmîñbòbò-illidan
+[2021-09-07 16:04:53] (profile_api) HTTP error 404 for Milkduzmegud-kelthuzad
+[2021-09-07 16:05:41] (profile_api) HTTP error 404 for Lilsac-caelestrasz
+[2021-09-07 16:05:48] (profile_api) HTTP error 404 for Thingx-barthilas
+[2021-09-07 16:05:52] (profile_api) HTTP error 404 for Milkdidmegud-kelthuzad
+[2021-09-07 16:06:14] (profile_api) HTTP error 404 for Dfd-bleeding-hollow
+[2021-09-07 16:06:38] (profile_api) HTTP error 404 for Hastyhamster-sargeras
+[2021-09-07 16:07:37] (profile_api) HTTP error 404 for Extic-sargeras
+[2021-09-07 16:07:44] (profile_api) HTTP error 404 for Creamsalad-azgalor
+[2021-09-07 16:08:23] (profile_api) HTTP error 404 for Karankaranka-illidan
+[2021-09-07 16:08:39] (profile_api) HTTP error 404 for Bothi-zuljin
+[2021-09-07 16:08:49] (profile_api) HTTP error 404 for Nigos-illidan
+[2021-09-07 16:09:17] (character_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:17] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2021-09-07 04:09:29] (character_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:09:29] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
+[2021-09-07 16:09:22] (character_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:22] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2021-09-07 04:09:34] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:09:34] (write$talents ) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
+[2021-09-07 16:09:25] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:25] (write$talents ) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2021-09-07 04:09:38] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:09:38] (write$talents) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
+[2021-09-07 16:09:28] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:28] (write$talents) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2021-09-07 04:09:44] (media_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:09:44] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
+[2021-09-07 16:09:34] (media_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:34] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2021-09-07 04:09:49] (media_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:09:49] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
+[2021-09-07 16:09:38] (media_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:38] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2021-09-07 04:09:55] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:09:55] (write$stat) declare_call[[3]]: subscript out of bounds
-[2021-09-07 04:10:00] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:10:00] (write$stat) declare_call[[3]]: subscript out of bounds
-[2021-09-07 04:10:06] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:10:06] (write$equip) declare_call[[3]]: subscript out of bounds
-[2021-09-07 04:10:11] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:10:11] (write$equip) declare_call[[3]]: subscript out of bounds
-[2021-09-07 04:10:17] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:10:17] (write$soulbind) declare_call[[3]]: subscript out of bounds
-[2021-09-07 04:10:21] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
-[2021-09-07 04:10:21] (write$soulbind) declare_call[[3]]: subscript out of bounds
-[2021-09-07 04:10:21] (write$covenant) infer_implicit_assignment_call(value): attempt to apply non-function
-[2021-09-07 04:10:23] (write$conduit) conduit_list$conduits: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:41] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:41] (write$stat) declare_call[[3]]: subscript out of bounds
+[2021-09-07 16:09:45] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:45] (write$stat) declare_call[[3]]: subscript out of bounds
+[2021-09-07 16:09:48] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:48] (write$equip) declare_call[[3]]: subscript out of bounds
+[2021-09-07 16:09:51] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:51] (write$equip) declare_call[[3]]: subscript out of bounds
+[2021-09-07 16:09:56] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:56] (write$soulbind) declare_call[[3]]: subscript out of bounds
+[2021-09-07 16:09:59] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
+[2021-09-07 16:09:59] (write$soulbind) declare_call[[3]]: subscript out of bounds
+[2021-09-07 16:09:59] (write$covenant) infer_implicit_assignment_call(value): attempt to apply non-function
+[2021-09-07 16:10:02] (write$conduit) conduit_list$conduits: $ operator is invalid for atomic vectors
