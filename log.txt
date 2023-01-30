@@ -1,70 +1,304 @@
-[2023-01-30 17:00:34] (profile_api) HTTP error 404 for Icespice-zuljin
-[2023-01-30 17:00:37] (profile_api) HTTP error 404 for Dno-demon-soul
-[2023-01-30 17:00:59] (profile_api) HTTP error 404 for Sawajirii-tichondrius
-[2023-01-30 17:03:17] (profile_api) HTTP error 404 for Greyhavoc-tichondrius
-[2023-01-30 17:03:38] (profile_api) HTTP error 404 for Bignar-zuljin
-[2023-01-30 17:04:45] (profile_api) HTTP error 404 for Blackmood-tichondrius
-[2023-01-30 17:05:34] (profile_api) HTTP error 404 for Druiditute-jubeithos
-[2023-01-30 17:06:00] (profile_api) HTTP error 404 for Ælgæ-tichondrius
-[2023-01-30 17:06:31] (profile_api) HTTP error 404 for Emìlia-malygos
-[2023-01-30 17:08:05] (profile_api) HTTP error 404 for Jozifßadmon-tichondrius
-[2023-01-30 17:08:41] (character_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:08:42] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
+[2023-01-31 05:00:29] (profile_api) HTTP error 404 for Icespice-zuljin
+[2023-01-31 05:00:39] (profile_api) HTTP error 404 for Dno-demon-soul
+[2023-01-31 05:00:47] (profile_api) HTTP error 404 for Sawajirii-tichondrius
+[2023-01-31 05:01:47] (profile_api) HTTP error 404 for Ïææë-tichondrius
+[2023-01-31 05:02:22] (profile_api) HTTP error 404 for Greyhavoc-tichondrius
+[2023-01-31 05:02:41] (profile_api) HTTP error 404 for Bignar-zuljin
+[2023-01-31 05:03:08] (profile_api) HTTP error 404 for Blackmood-tichondrius
+[2023-01-31 05:03:23] (profile_api) HTTP error 404 for Druiditute-jubeithos
+[2023-01-31 05:03:31] (profile_api) HTTP error 404 for Ælgæ-tichondrius
+[2023-01-31 05:03:38] (profile_api) HTTP error 404 for Emìlia-malygos
+[2023-01-31 05:03:53] (profile_api) HTTP error 404 for Jozifßadmon-tichondrius
+[2023-01-31 05:04:20] (profile_api) HTTP error 404 for Ezrevengë-tichondrius
+[2023-01-31 05:04:48] (profile_api) HTTP error 404 for Clubmusic-tichondrius
+[2023-01-31 05:05:18] (profile_api) HTTP error 404 for Weightless-sargeras
+[2023-01-31 05:05:40] (profile_api) HTTP error 404 for Bismilláh-tichondrius
+[2023-01-31 05:06:08] (character_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:06:09] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2023-01-30 17:09:50] (profile_api) HTTP error 404 for Ittøki-tichondrius
-[2023-01-30 17:10:41] (profile_api) HTTP error 404 for Oliveoil-zuljin
-[2023-01-30 17:10:57] (profile_api) HTTP error 404 for Icespice-zuljin
-[2023-01-30 17:11:00] (profile_api) HTTP error 404 for Ezrevengë-tichondrius
-[2023-01-30 17:11:36] (profile_api) HTTP error 404 for Åcx-kelthuzad
-[2023-01-30 17:12:06] (profile_api) HTTP error 404 for Milorada-bleeding-hollow
-[2023-01-30 17:12:30] (profile_api) HTTP error 404 for Tayicspally-zuljin
-[2023-01-30 17:13:14] (profile_api) HTTP error 404 for Potatofarmr-tichondrius
-[2023-01-30 17:13:39] (character_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:13:39] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
+[2023-01-31 05:06:25] (profile_api) HTTP error 404 for Ittøki-tichondrius
+[2023-01-31 05:06:56] (profile_api) HTTP error 404 for Icespice-zuljin
+[2023-01-31 05:07:01] (profile_api) HTTP error 404 for Oliveoil-zuljin
+[2023-01-31 05:07:07] (profile_api) HTTP error 404 for Ezrevengë-tichondrius
+[2023-01-31 05:07:18] (profile_api) HTTP error 404 for Åcx-kelthuzad
+[2023-01-31 05:07:27] (profile_api) HTTP error 404 for Milorada-bleeding-hollow
+[2023-01-31 05:07:35] (profile_api) HTTP error 404 for Tayicspally-zuljin
+[2023-01-31 05:07:52] (profile_api) HTTP error 404 for Potatofarmr-tichondrius
+[2023-01-31 05:08:00] (profile_api) HTTP error 404 for Ñøæüñïîìjåýæ-area-52
+[2023-01-31 05:08:10] (profile_api) HTTP error 404 for Lmprt-proudmoore
+[2023-01-31 05:08:12] (profile_api) HTTP error 404 for Rigorna-tichondrius
+[2023-01-31 05:08:31] (profile_api) HTTP error 404 for Taxzury-tichondrius
+[2023-01-31 05:09:15] (profile_api) HTTP error 404 for Emìlia-malygos
+[2023-01-31 05:10:19] (profile_api) HTTP error 404 for Sawajirii-tichondrius
+[2023-01-31 05:10:24] (profile_api) HTTP error 404 for Bignar-zuljin
+[2023-01-31 05:10:30] (profile_api) HTTP error 404 for Síríús-malganis
+[2023-01-31 05:10:34] (profile_api) HTTP error 404 for Nashagud-sargeras
+[2023-01-31 05:10:44] (profile_api) HTTP error 404 for Steamerboy-stormrage
+[2023-01-31 05:11:16] (profile_api) HTTP error 404 for Hekumz-bleeding-hollow
+[2023-01-31 05:12:10] (profile_api) HTTP error 404 for Panther-veknilash
+[2023-01-31 05:12:13] (profile_api) HTTP error 404 for Flysoardie-stormrage
+[2023-01-31 05:12:24] (profile_api) HTTP error 404 for Hugechance-tichondrius
+[2023-01-31 05:12:31] (profile_api) HTTP error 404 for Hîddëncløùdx-tichondrius
+[2023-01-31 05:12:35] (profile_api) HTTP error 404 for Bertóka-illidan
+[2023-01-31 05:12:45] (profile_api) HTTP error 404 for Rundaim-azralon
+[2023-01-31 05:13:17] (profile_api) HTTP error 404 for Puraimu-sargeras
+[2023-01-31 05:13:43] (profile_api) HTTP error 404 for Slaneesh-ragnaros
+[2023-01-31 05:13:52] (profile_api) HTTP error 404 for Clubmusic-tichondrius
+[2023-01-31 05:14:04] (profile_api) HTTP error 404 for Druiditute-jubeithos
+[2023-01-31 05:14:19] (profile_api) HTTP error 404 for Dogonleash-tichondrius
+[2023-01-31 05:14:39] (profile_api) HTTP error 404 for Skurgr-illidan
+[2023-01-31 05:15:01] (profile_api) HTTP error 404 for Kaidow-tichondrius
+[2023-01-31 05:15:21] (profile_api) HTTP error 404 for Ferjann-azralon
+[2023-01-31 05:15:25] (profile_api) HTTP error 404 for Jèss-jubeithos
+[2023-01-31 05:15:30] (profile_api) HTTP error 404 for Milkduzmegud-kelthuzad
+[2023-01-31 05:15:39] (profile_api) HTTP error 404 for Mikaylus-sargeras
+[2023-01-31 05:15:56] (profile_api) HTTP error 404 for Creepshowxx-tichondrius
+[2023-01-31 05:16:13] (profile_api) HTTP error 404 for Ælgæ-tichondrius
+[2023-01-31 05:16:17] (profile_api) HTTP error 404 for Solianfate-dalaran
+[2023-01-31 05:16:25] (profile_api) HTTP error 404 for Kawhi-malygos
+[2023-01-31 05:17:05] (profile_api) HTTP error 404 for Dno-demon-soul
+[2023-01-31 05:17:18] (profile_api) HTTP error 404 for Srchutaku-sargeras
+[2023-01-31 05:17:52] (profile_api) HTTP error 404 for Mådness-kelthuzad
+[2023-01-31 05:18:53] (character_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:18:53] (write$profiles) NULL: In `collate$character_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_character_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "character_details") }, error = function(e) {     plan("sequential")     log_error(e, "character_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2023-01-30 17:14:24] (talent_api) HTTP error 404 for Icespice-zuljin
-[2023-01-30 17:14:36] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:14:36] (write$talents ) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
+[2023-01-31 05:19:08] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:19:08] (write$talents ) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2023-01-30 17:15:44] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:15:44] (write$talents) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
+[2023-01-31 05:19:35] (talent_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:19:35] (write$talents) NULL: In `collate$talent_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(.x = obj, ~{         get_talent_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "talent_details") }, error = function(e) {     plan("sequential")     log_error(e, "talent_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2023-01-30 17:16:00] (media_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:16:00] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
+[2023-01-31 05:19:51] (media_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:19:51] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2023-01-30 17:16:22] (media_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:16:22] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
+[2023-01-31 05:20:13] (media_api) HTTP error 404 for Ittøki-tichondrius
+[2023-01-31 05:20:32] (media_api) HTTP error 404 for Icespice-zuljin
+[2023-01-31 05:20:36] (media_api) HTTP error 404 for Oliveoil-zuljin
+[2023-01-31 05:20:42] (media_api) HTTP error 404 for Ezrevengë-tichondrius
+[2023-01-31 05:20:51] (media_api) HTTP error 404 for Åcx-kelthuzad
+[2023-01-31 05:20:57] (media_api) HTTP error 404 for Milorada-bleeding-hollow
+[2023-01-31 05:21:03] (media_api) HTTP error 404 for Tayicspally-zuljin
+[2023-01-31 05:21:15] (media_api) HTTP error 404 for Potatofarmr-tichondrius
+[2023-01-31 05:21:29] (media_api) HTTP error 404 for Ñøæüñïîìjåýæ-area-52
+[2023-01-31 05:21:40] (media_api) HTTP error 404 for Lmprt-proudmoore
+[2023-01-31 05:21:44] (media_api) HTTP error 404 for Rigorna-tichondrius
+[2023-01-31 05:22:05] (media_api) HTTP error 404 for Taxzury-tichondrius
+[2023-01-31 05:22:17] (media_api) HTTP error 404 for Emìlia-malygos
+[2023-01-31 05:22:35] (media_api) HTTP error 404 for Sawajirii-tichondrius
+[2023-01-31 05:22:38] (media_api) HTTP error 404 for Bignar-zuljin
+[2023-01-31 05:22:42] (media_api) HTTP error 404 for Síríús-malganis
+[2023-01-31 05:22:48] (media_api) HTTP error 404 for Nashagud-sargeras
+[2023-01-31 05:22:53] (media_api) HTTP error 404 for Steamerboy-stormrage
+[2023-01-31 05:23:06] (media_api) HTTP error 404 for Hekumz-bleeding-hollow
+[2023-01-31 05:23:21] (media_api) HTTP error 404 for Panther-veknilash
+[2023-01-31 05:23:24] (media_api) HTTP error 404 for Flysoardie-stormrage
+[2023-01-31 05:23:39] (media_api) HTTP error 404 for Hugechance-tichondrius
+[2023-01-31 05:23:44] (media_api) HTTP error 404 for Hîddëncløùdx-tichondrius
+[2023-01-31 05:23:47] (media_api) HTTP error 404 for Bertóka-illidan
+[2023-01-31 05:23:56] (media_api) HTTP error 404 for Rundaim-azralon
+[2023-01-31 05:24:05] (media_api) HTTP error 404 for Puraimu-sargeras
+[2023-01-31 05:24:14] (media_api) HTTP error 404 for Slaneesh-ragnaros
+[2023-01-31 05:24:28] (media_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:24:29] (write$media) NULL: In `collate$media_details(token, data)` at `check_output(catch <- tryCatch({     plan("multisession", workers = availableCores(constraints = "multicore"))     dat <- future_map(obj, ~{         get_media_details(token, .x)     }, .options = furrr_options(seed = TRUE))     results <- compact(map(dat, filter_na))     plan("sequential")     return(check_output(results, List())) }, warning = function(w) {     plan("sequential")     log_error(w, "media_details") }, error = function(e) {     plan("sequential")     log_error(e, "media_details") }), List())`:
 wrong return value, type mismatch
 `typeof(value)`: "NULL"
 `expected`:      "list"
-[2023-01-30 17:16:47] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:16:47] (write$stat) declare_call[[3]]: subscript out of bounds
-[2023-01-30 17:17:11] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:17:11] (write$stat) declare_call[[3]]: subscript out of bounds
-[2023-01-30 17:18:07] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:18:07] (write$equip) declare_call[[3]]: subscript out of bounds
-[2023-01-30 17:19:39] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:19:39] (write$equip) declare_call[[3]]: subscript out of bounds
-[2023-01-30 17:20:09] (soulbind_api) HTTP error 404 for Fancyr-tichondrius
-[2023-01-30 17:21:01] (soulbind_api) HTTP error 404 for Ryøsuke-sargeras
-[2023-01-30 17:21:04] (soulbind_api) HTTP error 404 for Icespice-zuljin
-[2023-01-30 17:21:18] (soulbind_api) HTTP error 404 for Dno-demon-soul
-[2023-01-30 17:21:35] (soulbind_api) HTTP error 404 for Rlycoolclass-zuljin
-[2023-01-30 17:22:38] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:22:38] (write$soulbind) declare_call[[3]]: subscript out of bounds
-[2023-01-30 17:23:13] (soulbind_api) HTTP error 404 for Trillvoker-illidan
-[2023-01-30 17:23:52] (soulbind_api) HTTP error 404 for Ryøsuke-sargeras
-[2023-01-30 17:24:36] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
-[2023-01-30 17:24:36] (write$soulbind) declare_call[[3]]: subscript out of bounds
-[2023-01-30 17:24:36] (write$covenant) infer_implicit_assignment_call(value): attempt to apply non-function
-[2023-01-30 17:32:07] (write$conduit) .x$id: $ operator is invalid for atomic vectors
+[2023-01-31 05:24:44] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:24:44] (write$stat) declare_call[[3]]: subscript out of bounds
+[2023-01-31 05:24:59] (stat_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:24:59] (write$stat) declare_call[[3]]: subscript out of bounds
+[2023-01-31 05:25:14] (equip_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 05:25:14] (write$equip) declare_call[[3]]: subscript out of bounds
+[2023-01-31 05:26:23] (equip_api) HTTP error 404 for Ittøki-tichondrius
+[2023-01-31 05:26:55] (equip_api) HTTP error 404 for Icespice-zuljin
+[2023-01-31 05:27:01] (equip_api) HTTP error 404 for Oliveoil-zuljin
+[2023-01-31 05:27:12] (equip_api) HTTP error 404 for Ezrevengë-tichondrius
+[2023-01-31 05:27:28] (equip_api) HTTP error 404 for Åcx-kelthuzad
+[2023-01-31 05:27:35] (equip_api) HTTP error 404 for Milorada-bleeding-hollow
+[2023-01-31 05:27:45] (equip_api) HTTP error 404 for Tayicspally-zuljin
+[2023-01-31 05:27:58] (equip_api) HTTP error 404 for Potatofarmr-tichondrius
+[2023-01-31 05:28:09] (equip_api) HTTP error 404 for Ñøæüñïîìjåýæ-area-52
+[2023-01-31 05:28:24] (equip_api) HTTP error 404 for Lmprt-proudmoore
+[2023-01-31 05:28:26] (equip_api) HTTP error 404 for Rigorna-tichondrius
+[2023-01-31 05:28:54] (equip_api) HTTP error 404 for Taxzury-tichondrius
+[2023-01-31 05:29:12] (equip_api) HTTP error 404 for Emìlia-malygos
+[2023-01-31 05:29:35] (equip_api) HTTP error 404 for Sawajirii-tichondrius
+[2023-01-31 05:29:40] (equip_api) HTTP error 404 for Bignar-zuljin
+[2023-01-31 05:29:47] (equip_api) HTTP error 404 for Síríús-malganis
+[2023-01-31 05:29:53] (equip_api) HTTP error 404 for Nashagud-sargeras
+[2023-01-31 05:30:01] (equip_api) HTTP error 404 for Steamerboy-stormrage
+[2023-01-31 05:30:22] (equip_api) HTTP error 404 for Hekumz-bleeding-hollow
+[2023-01-31 05:30:49] (equip_api) HTTP error 404 for Panther-veknilash
+[2023-01-31 05:30:54] (equip_api) HTTP error 404 for Flysoardie-stormrage
+[2023-01-31 05:31:17] (equip_api) HTTP error 404 for Hugechance-tichondrius
+[2023-01-31 05:31:24] (equip_api) HTTP error 404 for Hîddëncløùdx-tichondrius
+[2023-01-31 05:31:29] (equip_api) HTTP error 404 for Bertóka-illidan
+[2023-01-31 05:31:52] (equip_api) HTTP error 404 for Rundaim-azralon
+[2023-01-31 05:32:21] (equip_api) HTTP error 404 for Puraimu-sargeras
+[2023-01-31 05:33:27] (equip_api) HTTP error 404 for Slaneesh-ragnaros
+[2023-01-31 05:33:41] (equip_api) HTTP error 404 for Clubmusic-tichondrius
+[2023-01-31 05:33:58] (equip_api) HTTP error 404 for Druiditute-jubeithos
+[2023-01-31 05:34:21] (equip_api) HTTP error 404 for Dogonleash-tichondrius
+[2023-01-31 05:34:41] (equip_api) HTTP error 404 for Skurgr-illidan
+[2023-01-31 05:35:16] (equip_api) HTTP error 404 for Kaidow-tichondrius
+[2023-01-31 05:35:33] (equip_api) HTTP error 404 for Ferjann-azralon
+[2023-01-31 05:35:40] (equip_api) HTTP error 404 for Jèss-jubeithos
+[2023-01-31 05:35:47] (equip_api) HTTP error 404 for Milkduzmegud-kelthuzad
+[2023-01-31 05:35:58] (equip_api) HTTP error 404 for Mikaylus-sargeras
+[2023-01-31 05:36:12] (equip_api) HTTP error 404 for Creepshowxx-tichondrius
+[2023-01-31 05:36:24] (equip_api) HTTP error 404 for Ælgæ-tichondrius
+[2023-01-31 05:36:27] (equip_api) HTTP error 404 for Solianfate-dalaran
+[2023-01-31 05:36:35] (equip_api) HTTP error 404 for Kawhi-malygos
+[2023-01-31 05:36:45] (equip_api) HTTP error 404 for Dno-demon-soul
+[2023-01-31 05:36:51] (equip_api) HTTP error 404 for Srchutaku-sargeras
+[2023-01-31 05:37:01] (equip_api) HTTP error 404 for Mådness-kelthuzad
+[2023-01-31 05:37:37] (equip_api) HTTP error 404 for Chemíst-sargeras
+[2023-01-31 05:37:59] (equip_api) HTTP error 404 for Deadry-ysera
+[2023-01-31 05:38:22] (equip_api) HTTP error 404 for Zvk-illidan
+[2023-01-31 05:38:27] (equip_api) HTTP error 404 for Gladiatoriae-tichondrius
+[2023-01-31 05:38:34] (equip_api) HTTP error 404 for Bubblexo-kelthuzad
+[2023-01-31 05:38:45] (equip_api) HTTP error 404 for Contägion-bleeding-hollow
+[2023-01-31 05:38:55] (equip_api) HTTP error 404 for Ofcourse-zuljin
+[2023-01-31 05:39:21] (equip_api) HTTP error 404 for Hîddènsõündx-tichondrius
+[2023-01-31 05:39:40] (equip_api) HTTP error 404 for Jozifßadmon-tichondrius
+[2023-01-31 05:39:57] (equip_api) HTTP error 404 for Jdbthyr-malganis
+[2023-01-31 05:40:14] (equip_api) HTTP error 404 for Etcchi-malganis
+[2023-01-31 05:40:21] (equip_api) HTTP error 404 for Magoshta-azralon
+[2023-01-31 05:40:31] (equip_api) HTTP error 404 for Lzkl-tichondrius
+[2023-01-31 05:41:12] (equip_api) HTTP error 404 for Ïææë-tichondrius
+[2023-01-31 05:41:21] (equip_api) HTTP error 404 for Mårlbørø-tichondrius
+[2023-01-31 05:42:01] (equip_api) HTTP error 404 for Anßu-malganis
+[2023-01-31 05:43:25] (equip_api) HTTP error 404 for Tunci-sargeras
+[2023-01-31 05:43:58] (equip_api) HTTP error 404 for Kíbá-malganis
+[2023-01-31 05:45:00] (equip_api) HTTP error 404 for Ogctkoy-illidan
+[2023-01-31 05:45:17] (equip_api) HTTP error 404 for Viranne-stormrage
+[2023-01-31 05:45:23] (equip_api) HTTP error 404 for Jimin-dragonmaw
+[2023-01-31 05:45:37] (equip_api) HTTP error 404 for Evokumzx-bleeding-hollow
+[2023-01-31 05:45:41] (equip_api) HTTP error 404 for Smilingcat-illidan
+[2023-01-31 05:45:49] (equip_api) HTTP error 404 for Gùrú-sargeras
+[2023-01-31 05:45:57] (equip_api) HTTP error 404 for Aisatsana-nathrezim
+[2023-01-31 05:46:02] (equip_api) HTTP error 404 for Mzr-proudmoore
+[2023-01-31 05:46:17] (equip_api) HTTP error 404 for Ayanokoji-korialstrasz
+[2023-01-31 05:46:25] (equip_api) HTTP error 404 for Babywetwipes-area-52
+[2023-01-31 05:46:48] (equip_api) HTTP error 404 for Gamergirlx-area-52
+[2023-01-31 05:46:58] (equip_api) HTTP error 404 for Joxibaba-stormrage
+[2023-01-31 05:47:06] (equip_api) HTTP error 404 for Neverheal-tichondrius
+[2023-01-31 05:47:10] (equip_api) HTTP error 404 for Nickmitsu-frostwolf
+[2023-01-31 05:47:16] (equip_api) HTTP error 404 for Stringbeanx-illidan
+[2023-01-31 05:47:25] (equip_api) HTTP error 404 for Røgüë-malganis
+[2023-01-31 05:48:29] (equip_api) HTTP error 404 for Florescence-tichondrius
+[2023-01-31 05:50:22] (equip_api) HTTP error 404 for Kaydayx-tichondrius
+[2023-01-31 05:50:40] (equip_api) HTTP error 404 for Tearet-tichondrius
+[2023-01-31 05:50:48] (equip_api) HTTP error 404 for Xefradru-stormrage
+[2023-01-31 05:51:09] (equip_details) NULL: parse error: premature EOF
+                                       {"_links":{"self":{"href":"http
+                     (right here) ------^
+
+[2023-01-31 05:51:09] (write$equip) declare_call[[3]]: subscript out of bounds
+[2023-01-31 05:51:21] (soulbind_api) HTTP error 404 for Fancyr-tichondrius
+[2023-01-31 05:51:32] (soulbind_api) HTTP error 404 for Ryøsuke-sargeras
+[2023-01-31 05:51:35] (soulbind_api) HTTP error 404 for Icespice-zuljin
+[2023-01-31 05:51:40] (soulbind_api) HTTP error 404 for Rlycoolclass-zuljin
+[2023-01-31 05:51:48] (soulbind_api) HTTP error 404 for Dno-demon-soul
+[2023-01-31 05:51:53] (soulbind_api) HTTP error 404 for Néylo-illidan
+[2023-01-31 05:52:02] (soulbind_api) HTTP error 404 for Loria-cenarion-circle
+[2023-01-31 05:52:05] (soulbind_api) HTTP error 404 for Maybesoju-tichondrius
+[2023-01-31 05:52:09] (soulbind_api) HTTP error 404 for Sawajirii-tichondrius
+[2023-01-31 05:52:14] (soulbind_api) HTTP error 404 for Whitecat-sargeras
+[2023-01-31 05:52:21] (soulbind_api) HTTP error 404 for Nobleanya-tichondrius
+[2023-01-31 05:52:25] (soulbind_api) HTTP error 404 for Demoralized-destromath
+[2023-01-31 05:52:30] (soulbind_api) HTTP error 404 for Sct-zuljin
+[2023-01-31 05:52:35] (soulbind_api) HTTP error 404 for Neologý-illidan
+[2023-01-31 05:52:43] (soulbind_api) HTTP error 404 for Soloqmenace-malganis
+[2023-01-31 05:52:49] (soulbind_api) HTTP error 404 for Jaeminpriest-tichondrius
+[2023-01-31 05:52:56] (soulbind_api) HTTP error 404 for Xrtj-tichondrius
+[2023-01-31 05:53:02] (soulbind_api) HTTP error 404 for Tatoonga-tichondrius
+[2023-01-31 05:53:06] (soulbind_api) HTTP error 404 for Ililiili-tichondrius
+[2023-01-31 05:53:13] (soulbind_api) HTTP error 404 for Mentalcapped-tichondrius
+[2023-01-31 05:53:18] (soulbind_api) HTTP error 404 for Ïææë-tichondrius
+[2023-01-31 05:53:26] (soulbind_api) HTTP error 404 for Pudlik-sargeras
+[2023-01-31 05:53:30] (soulbind_api) HTTP error 404 for Clisted-illidan
+[2023-01-31 05:53:36] (soulbind_api) HTTP error 404 for Yangmiedk-tichondrius
+[2023-01-31 05:53:40] (soulbind_api) HTTP error 404 for Greyhavoc-tichondrius
+[2023-01-31 05:53:48] (soulbind_api) HTTP error 404 for Bignar-zuljin
+[2023-01-31 05:53:53] (soulbind_api) HTTP error 404 for Alexeyevna-arygos
+[2023-01-31 05:53:55] (soulbind_api) HTTP error 404 for Crimthyr-darkspear
+[2023-01-31 05:54:07] (soulbind_api) HTTP error 404 for Çraßsßùrgêr-bonechewer
+[2023-01-31 05:54:14] (soulbind_api) HTTP error 404 for Iúlúlúlúlúlú-area-52
+[2023-01-31 05:54:16] (soulbind_api) HTTP error 404 for Caligia-moon-guard
+[2023-01-31 05:54:21] (soulbind_api) HTTP error 404 for Blackmood-tichondrius
+[2023-01-31 05:54:31] (soulbind_api) HTTP error 404 for Dracao-nemesis
+[2023-01-31 05:54:39] (soulbind_api) HTTP error 404 for Dracostayout-sargeras
+[2023-01-31 05:54:50] (soulbind_api) HTTP error 404 for Druiditute-jubeithos
+[2023-01-31 05:54:56] (soulbind_api) HTTP error 404 for Purplepopjor-kelthuzad
+[2023-01-31 05:55:03] (soulbind_api) HTTP error 404 for Ælgæ-tichondrius
+[2023-01-31 05:55:10] (soulbind_api) HTTP error 404 for Sainttropez-stormrage
+[2023-01-31 05:55:15] (soulbind_api) HTTP error 404 for Gomznyxia-tichondrius
+[2023-01-31 05:55:18] (soulbind_api) HTTP error 404 for Emìlia-malygos
+[2023-01-31 05:55:24] (soulbind_api) HTTP error 404 for Davedeekay-stormrage
+[2023-01-31 05:55:27] (soulbind_api) HTTP error 404 for Laysxx-hyjal
+[2023-01-31 05:55:33] (soulbind_api) HTTP error 404 for Maerdtew-sargeras
+[2023-01-31 05:55:41] (soulbind_api) HTTP error 404 for Ccýs-tichondrius
+[2023-01-31 05:55:46] (soulbind_api) HTTP error 404 for Farmandrak-frostmourne
+[2023-01-31 05:55:59] (soulbind_api) HTTP error 404 for Avaruun-stormrage
+[2023-01-31 05:56:07] (soulbind_api) HTTP error 404 for Jozifßadmon-tichondrius
+[2023-01-31 05:56:14] (soulbind_api) HTTP error 404 for Haebaragi-dalaran
+[2023-01-31 05:56:18] (soulbind_api) HTTP error 404 for Kko-tichondrius
+[2023-01-31 05:56:25] (soulbind_api) HTTP error 404 for Obc-malganis
+[2023-01-31 05:56:28] (soulbind_api) HTTP error 404 for Theelucyhunt-sargeras
+[2023-01-31 05:56:37] (soulbind_api) HTTP error 404 for Aphroditezs-emerald-dream
+[2023-01-31 05:56:50] (soulbind_api) HTTP error 404 for Envymonk-tichondrius
+[2023-01-31 05:57:07] (soulbind_api) HTTP error 404 for Äckermán-nemesis
+[2023-01-31 05:57:10] (soulbind_api) HTTP error 404 for Cantstandwow-illidan
+[2023-01-31 05:57:23] (soulbind_api) HTTP error 404 for Cylizxd-kelthuzad
+[2023-01-31 05:57:29] (soulbind_api) HTTP error 404 for Ezrevengë-tichondrius
+[2023-01-31 05:57:48] (soulbind_api) HTTP error 404 for Szwlol-tichondrius
+[2023-01-31 05:57:58] (soulbind_api) HTTP error 404 for Islonely-tichondrius
+[2023-01-31 05:58:02] (soulbind_api) HTTP error 404 for Deadnextgo-sargeras
+[2023-01-31 05:58:28] (soulbind_api) HTTP error 404 for Slicknquick-dalaran
+[2023-01-31 05:58:51] (soulbind_api) HTTP error 404 for Kstepd-tichondrius
+[2023-01-31 05:58:58] (soulbind_api) HTTP error 404 for Cëb-stormrage
+[2023-01-31 05:59:13] (soulbind_api) HTTP error 404 for Unbànned-area-52
+[2023-01-31 05:59:17] (soulbind_api) HTTP error 404 for Calistrax-sargeras
+[2023-01-31 05:59:21] (soulbind_api) HTTP error 404 for Deathdrake-jubeithos
+[2023-01-31 05:59:25] (soulbind_api) HTTP error 404 for Survival-tanaris
+[2023-01-31 05:59:30] (soulbind_api) HTTP error 404 for Skyaxa-tichondrius
+[2023-01-31 05:59:38] (soulbind_api) HTTP error 404 for Clubmusic-tichondrius
+[2023-01-31 05:59:43] (soulbind_api) HTTP error 404 for Bagele-tichondrius
+[2023-01-31 05:59:49] (soulbind_api) HTTP error 404 for Skyfist-stormrage
+[2023-01-31 05:59:54] (soulbind_api) HTTP error 404 for Ìïïíðåñgfxó-kelthuzad
+[2023-01-31 05:59:58] (soulbind_api) HTTP error 404 for Leonihpriest-nemesis
+[2023-01-31 06:00:06] (soulbind_api) HTTP error 404 for Healinealin-illidan
+[2023-01-31 06:00:18] (soulbind_api) HTTP error 404 for Hexedu-proudmoore
+[2023-01-31 06:00:27] (soulbind_api) HTTP error 404 for Ccgo-tichondrius
+[2023-01-31 06:00:36] (soulbind_api) HTTP error 404 for Sleples-korgath
+[2023-01-31 06:01:19] (soulbind_api) HTTP error 404 for Xenyattah-tichondrius
+[2023-01-31 06:01:50] (soulbind_api) HTTP error 404 for Mavtharipper-illidan
+[2023-01-31 06:02:05] (soulbind_api) HTTP error 404 for Iloveally-sargeras
+[2023-01-31 06:02:21] (soulbind_api) HTTP error 404 for Ploteplote-kelthuzad
+[2023-01-31 06:02:26] (soulbind_api) HTTP error 404 for Trueoutlaw-tichondrius
+[2023-01-31 06:02:37] (soulbind_api) HTTP error 404 for Súzúne-tichondrius
+[2023-01-31 06:02:42] (soulbind_api) HTTP error 404 for Sebdru-proudmoore
+[2023-01-31 06:02:50] (soulbind_api) HTTP error 404 for Weightless-sargeras
+[2023-01-31 06:02:55] (soulbind_api) HTTP error 404 for Deathbriñgér-moon-guard
+[2023-01-31 06:03:18] (soulbind_api) HTTP error 404 for Obama-dragonmaw
+[2023-01-31 06:03:22] (soulbind_api) HTTP error 404 for Reckxzy-sargeras
+[2023-01-31 06:03:36] (soulbind_api) HTTP error 404 for Muriaticacid-tichondrius
+[2023-01-31 06:03:56] (soulbind_api) HTTP error 404 for Homilbab-tichondrius
+[2023-01-31 06:04:13] (soulbind_api) HTTP error 404 for Corbind-arthas
+[2023-01-31 06:04:39] (soulbind_api) HTTP error 404 for Æßçð-stormrage
+[2023-01-31 06:04:55] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 06:04:55] (write$soulbind) declare_call[[3]]: subscript out of bounds
+[2023-01-31 06:05:16] (soulbind_details) content(error)$code: $ operator is invalid for atomic vectors
+[2023-01-31 06:05:16] (write$soulbind) declare_call[[3]]: subscript out of bounds
+[2023-01-31 06:05:16] (write$covenant) infer_implicit_assignment_call(value): attempt to apply non-function
